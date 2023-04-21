@@ -70,7 +70,7 @@ The kefir pizza dough recipe is a great alternative for those who are short on t
 ## Screenshots
 
 ![Screen One](./assets/img/Pizza-s-tomatom_siteWeb.jpg)
-![Screen Two](./assets/img/Pizza-s-tomatom_siteWeb.jpg)
+![Screen Two](./assets/img/Yak-prigotyvaty-tisto-dlya-pizzy_siteWebUkr.jpg)
 
 ## Contributing
 
