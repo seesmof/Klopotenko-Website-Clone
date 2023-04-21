@@ -13,6 +13,7 @@ This repository contains the code for a webpage that shows a recipe for making p
   - [Kefir Pizza Dough Recipe](#kefir-pizza-dough-recipe)
     - [Ingredients](#ingredients-1)
     - [Instructions](#instructions-1)
+  - [Screenshots](#screenshots)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -65,6 +66,11 @@ The kefir pizza dough recipe is a great alternative for those who are short on t
 4. Let the dough rest for 20 minutes at room temperature.
 5. Roll out the dough to your desired thickness and add your desired toppings.
 6. Bake at 180°C for up to 10 minutes, or until the crust is golden brown.
+
+## Screenshots
+
+![https](assets/img/Pizza-s-tomatom_siteWeb.jpg)
+![https](assets/img/Pizza-s-tomatom_siteWeb.jpg)
 
 ## Contributing
 
