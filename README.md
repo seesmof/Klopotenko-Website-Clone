@@ -1,10 +1,10 @@
-# Day Two
+# Pizza Recipe
 
 This repository contains the code for a webpage that shows a recipe for making pizza dough. The webpage is written in HTML and styled with CSS.
 
 ## Table of Contents
 
-- [Day Two](#day-two)
+- [Pizza Recipe](#pizza-recipe)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Classic Pizza Dough Recipe](#classic-pizza-dough-recipe)
