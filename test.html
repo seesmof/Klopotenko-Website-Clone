@@ -1,74 +1,37 @@
-<!DOCTYPE html>
-<html lang="uk" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-    <title></title>
-  </head>
-  <!-- FOLLOW ON FACEBOOK -->
-  <section class="">
-    <div class="flex flex-col p-6 px-4 gap-y-4">
-      <!-- SECTION HEADER -->
-      <header class="mb-4">
-        <h2
-          class="relative py-4 text-lg font-medium text-center uppercase border-2 border-slate-900"
-        >
-          @klopotenko
-          <i class="absolute fas fa-sort-down top-[3.2rem] left-0 right-0"></i>
-        </h2>
-      </header>
+class="bg-gray-900">
+<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex-shrink-0">
+<a href="#" class="text-white">Logo</a>
+</div>
+<div class="hidden md:block">
+<ul class="flex items-center ml-4">
+<li>
+<a href="#" class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white">Home</a>
+</li>
+<li>
+<a href="#" class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white">About</a>
+</li>
+<li>
+<a href="#" class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white">Contact</a>
+</li>
+</ul>
+</div>
+<div class="flex -mr-2 md:hidden">
+<button class="inline-flex items-center justify-center p-2 text-white transition duration-150 ease-in-out rounded-md hover:bg-gray-800 focus:outline-none focus:bg-gray-800" aria-label="Main menu" aria-expanded="false">
+<svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
 
-      <!-- SECTION ITEM -->
-      <div
-        class="flex flex-col gap-y-5 bg-[url('/assets/img/main/pizza-uhd-4k-wallpaper.jpg')] bg-center bg-no-repeat bg-cover relative z-[0] overflow-hidden p-3"
-      >
-        <!-- BLUR BACKGROUND -->
-        <div
-          class="absolute top-0 bottom-0 right-0 left-0 z-[1] bg-gradient-to-b from-[#000000] to-[#2e2e2e] opacity-60"
-        ></div>
-
-        <!-- CARD ITEMS -->
-        <div class="flex flex-row items-center gap-3 z-[2]">
-          <img
-            src="/assets/img/main/Євген_Клопотенко_01.jpg"
-            alt="Клопотенко фотопортрет"
-            class="object-cover object-top w-16 h-16 col-span-1 rounded-full"
-          />
-
-          <div class="flex flex-col col-span-2 text-white">
-            <h3 class="text-xl font-medium">Рецепти Євгена Клопоте...</h3>
-            <p class="font-light tracking-wider">2000+ смачних рецептів</p>
-          </div>
-        </div>
-
-        <div class="flex justify-center gap-4 flex-row z-[2]">
-          <a
-            href="#"
-            class="flex flex-row items-center px-4 py-2 font-medium text-sm duration-500 hover:bg-gray-300 bg-white rounded-sm gap-x-1.5"
-          >
-            <i class="text-blue-600 fa-brands fa-facebook"></i>
-            Підписатись
-          </a>
-
-          <a
-            href="#"
-            class="flex flex-row items-center px-4 py-2 font-medium text-sm duration-500 hover:bg-gray-300 bg-white rounded-sm gap-x-1.5"
-          >
-            <i class="text-neutral-600 fas fa-circle-info"></i>
-            Дізнатися більше
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-</html>
+<div class="hidden md:hidden">
+<div class="px-2 pt-2 pb-3 sm:px-3">
+<a href="#" class="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-white">Home</a>
+<a href="#" class="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-white">About</a>
+<a href="#" class="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-white">Contact</a>
+</div>
+</div>
+</nav>
