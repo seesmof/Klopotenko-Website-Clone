@@ -40,8 +40,12 @@
 
         <!-- HEADER BUTTONS -->
         <div class="flex flex-row gap-4">
-          <i class="fas fa-search fa-lg text-red-600"></i>
-          <i class="fas fa-bars fa-lg"></i>
+          <a href="#" class="group relative">
+            <i class="fas fa-search fa-lg text-red-600"></i>
+          </a>
+          <a href="#" class="group relative">
+            <i class="fas fa-bars fa-lg"></i>
+          </a>
         </div>
       </div>
     </header>
@@ -51,7 +55,7 @@
       <i class="fas fa-arrow-circle-up fa-2x text-red-500"></i>
     </a>
 
-    <!-- NEW RECIPES -->
+    <!-- SECTION NEW RECIPES -->
     <section class="">
       <div class="flex flex-col p-6 px-4">
         <!-- SECTION HEADER -->
@@ -62,136 +66,154 @@
           ></div>
         </header>
 
-        <!-- SECTION ITEMS -->
-        <div class="flex flex-col justify-center py-6">
-          <a href="#" class="">
-            <img
-              src="./assets/img/main/pahlava-z-tista-filo_sitewebukr-530x338.jpg"
-              alt="Тонке тісто для пахлави"
-              class="object-cover w-full h-full transition-all duration-500"
-            />
+        <div class="gap-y-14 grid grid-cols-1 py-4">
+          <!-- SECTION ITEMS -->
+          <div class="sm:w-1/2 flex flex-col justify-center w-full">
+            <a href="#" class="">
+              <img
+                src="./assets/img/main/pahlava-z-tista-filo_sitewebukr-530x338.jpg"
+                alt="Тонке тісто для пахлави"
+                class="object-cover w-full h-full transition-all duration-500"
+              />
 
-            <h3
-              class="hover:text-red-600 p-4 text-2xl font-medium text-center transition-all duration-500"
-            >
-              Тонке тісто та волоські горіхи: простий рецепт домашньої медової
-              пахлави
-            </h3>
-          </a>
+              <h3
+                class="hover:text-red-600 p-4 text-2xl font-medium text-center transition-all duration-500"
+              >
+                Тонке тісто та волоські горіхи: простий рецепт домашньої медової
+                пахлави
+              </h3>
+            </a>
 
-          <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
-              <i class="fa-regular fa-clock"></i>
-              55 хвилин
-            </div>
-            <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
-            >
-              <i class="fa-regular fa-user"></i>
-              10
-            </div>
-            <div class="gap-x-1 flex flex-row items-center">
-              <i class="fa-regular fa-star-half-alt"></i>
-              помірна
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col justify-center py-6">
-          <a href="#" class="">
-            <img
-              src="./assets/img/main/fermentirovannui-luk_siteweb-img-530x338.jpg"
-              alt="Тонке тісто для пахлави"
-              class="object-cover w-full h-full transition-all duration-500"
-            />
-
-            <h3
-              class="hover:text-red-600 p-4 text-2xl font-medium text-center transition-all duration-500"
-            >
-              Маринована цибуля: пікантний додаток для смачних страв
-            </h3>
-          </a>
-
-          <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
-              <i class="fa-regular fa-clock"></i>
-              20 хвилин
-            </div>
-            <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
-            >
-              <i class="fa-regular fa-user"></i>
-              1
-            </div>
-            <div class="gap-x-1 flex flex-row items-center">
-              <i class="fa-regular fa-star"></i>
-              легка
+            <div class="gap-x-6 flex flex-row justify-center">
+              <div
+                class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+              >
+                <i class="fa-regular fa-clock"></i>
+                55 хвилин
+              </div>
+              <div
+                class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
+              >
+                <i class="fa-regular fa-user"></i>
+                10
+              </div>
+              <div
+                class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+              >
+                <i class="fa-regular fa-star-half-alt"></i>
+                помірна
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="flex flex-col justify-center py-6">
-          <a href="#" class="">
-            <img
-              src="./assets/img/main/syrnyky_sitewebukr-img-530x338.jpg"
-              alt="Тонке тісто для пахлави"
-              class="object-cover w-full h-full transition-all duration-500"
-            />
+          <div class="sm:w-1/2 flex flex-col justify-center w-full">
+            <a href="#" class="">
+              <img
+                src="./assets/img/main/fermentirovannui-luk_siteweb-img-530x338.jpg"
+                alt="Тонке тісто для пахлави"
+                class="object-cover w-full h-full transition-all duration-500"
+              />
 
-            <h3
-              class="hover:text-red-600 p-4 text-2xl font-medium text-center transition-all duration-500"
-            >
-              Рецепт сирників
-            </h3>
-          </a>
+              <h3
+                class="hover:text-red-600 p-4 text-2xl font-medium text-center transition-all duration-500"
+              >
+                Маринована цибуля: пікантний додаток для смачних страв
+              </h3>
+            </a>
 
-          <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
-              <i class="fa-regular fa-clock"></i>
-              20 хвилин
-            </div>
-            <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
-            >
-              <i class="fa-regular fa-user"></i>
-              2
-            </div>
-            <div class="gap-x-1 flex flex-row items-center">
-              <i class="fa-regular fa-star"></i>
-              легка
+            <div class="gap-x-6 flex flex-row justify-center">
+              <div
+                class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+              >
+                <i class="fa-regular fa-clock"></i>
+                20 хвилин
+              </div>
+              <div
+                class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
+              >
+                <i class="fa-regular fa-user"></i>
+                1
+              </div>
+              <div
+                class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+              >
+                <i class="fa-regular fa-star"></i>
+                легка
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="flex flex-col justify-center py-6">
-          <a href="#" class="">
-            <img
-              src="./assets/img/Pizza-s-tomatom_siteWeb.jpg"
-              alt="Тонке тісто для пахлави"
-              class="object-cover w-full h-full transition-all duration-500"
-            />
+          <div class="sm:w-1/2 flex flex-col justify-center w-full">
+            <a href="#" class="">
+              <img
+                src="./assets/img/main/syrnyky_sitewebukr-img-530x338.jpg"
+                alt="Тонке тісто для пахлави"
+                class="object-cover w-full h-full transition-all duration-500"
+              />
 
-            <h3
-              class="hover:text-red-600 p-4 text-2xl font-medium text-center transition-all duration-500"
-            >
-              Готуємо вдома піцу як в піцерії. Найсмачніший рецепт тіста.
-            </h3>
-          </a>
+              <h3
+                class="hover:text-red-600 p-4 text-2xl font-medium text-center transition-all duration-500"
+              >
+                Рецепт сирників
+              </h3>
+            </a>
 
-          <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
-              <i class="fa-regular fa-clock"></i>
-              30 хвилин
+            <div class="gap-x-6 flex flex-row justify-center">
+              <div
+                class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+              >
+                <i class="fa-regular fa-clock"></i>
+                20 хвилин
+              </div>
+              <div
+                class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
+              >
+                <i class="fa-regular fa-user"></i>
+                2
+              </div>
+              <div
+                class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+              >
+                <i class="fa-regular fa-star"></i>
+                легка
+              </div>
             </div>
-            <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
-            >
-              <i class="fa-regular fa-user"></i>
-              3
-            </div>
-            <div class="gap-x-1 flex flex-row items-center">
-              <i class="fa-regular fa-star-half-alt"></i>
-              помірна
+          </div>
+
+          <div class="sm:w-1/2 flex flex-col justify-center w-full">
+            <a href="#" class="">
+              <img
+                src="./assets/img/Pizza-s-tomatom_siteWeb.jpg"
+                alt="Тонке тісто для пахлави"
+                class="object-cover w-full h-full transition-all duration-500"
+              />
+
+              <h3
+                class="hover:text-red-600 p-4 text-2xl font-medium text-center transition-all duration-500"
+              >
+                Готуємо вдома піцу як в піцерії. Найсмачніший рецепт тіста.
+              </h3>
+            </a>
+
+            <div class="gap-x-6 flex flex-row justify-center">
+              <div
+                class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+              >
+                <i class="fa-regular fa-clock"></i>
+                30 хвилин
+              </div>
+              <div
+                class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
+              >
+                <i class="fa-regular fa-user"></i>
+                3
+              </div>
+              <div
+                class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+              >
+                <i class="fa-regular fa-star-half-alt"></i>
+                помірна
+              </div>
             </div>
           </div>
         </div>
@@ -240,17 +262,21 @@
           </a>
 
           <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-clock"></i>
               2 години 20 хвилин
             </div>
             <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
+              class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
             >
               <i class="fa-regular fa-user"></i>
               6
             </div>
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-star-half-alt"></i>
               помірна
             </div>
@@ -280,17 +306,21 @@
           </a>
 
           <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-clock"></i>
               3 години
             </div>
             <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
+              class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
             >
               <i class="fa-regular fa-user"></i>
               1
             </div>
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-star"></i>
               легка
             </div>
@@ -454,17 +484,21 @@
           </a>
 
           <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-clock"></i>
               55 хвилин
             </div>
             <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
+              class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
             >
               <i class="fa-regular fa-user"></i>
               4
             </div>
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-star-half-alt"></i>
               помірна
             </div>
@@ -487,17 +521,21 @@
           </a>
 
           <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-clock"></i>
               20 хвилин
             </div>
             <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
+              class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
             >
               <i class="fa-regular fa-user"></i>
               2
             </div>
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-star"></i>
               легка
             </div>
@@ -520,17 +558,21 @@
           </a>
 
           <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-clock"></i>
               15 хвилин
             </div>
             <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
+              class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
             >
               <i class="fa-regular fa-user"></i>
               2
             </div>
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-star"></i>
               легка
             </div>
@@ -553,17 +595,21 @@
           </a>
 
           <div class="gap-x-6 flex flex-row justify-center">
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-clock"></i>
               10 хвилин
             </div>
             <div
-              class="gap-x-1 border-x-2 border-slate-200 flex flex-row items-center px-6"
+              class="gap-x-1 border-x-2 border-slate-200 sm:text-base flex flex-row items-center px-6 text-sm"
             >
               <i class="fa-regular fa-user"></i>
               1
             </div>
-            <div class="gap-x-1 flex flex-row items-center">
+            <div
+              class="gap-x-1 sm:text-base flex flex-row items-center text-sm"
+            >
               <i class="fa-regular fa-star"></i>
               легка
             </div>
